@@ -1,0 +1,38 @@
+.pulsante-zona {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display: inline-block; 
+
+}
+
+.pulsante-off {
+    background-color: grey;
+}
+
+.pulsante-on {
+    background-color: green;
+}
+
+.aggiungiZona {
+    border: none;
+    background-color: rgb(21, 201, 42);
+    color: white;
+    cursor: pointer;
+}
+
+.aggiungiZona:hover {
+    color: black;
+}
+
+.rimuoviZona {
+    border: none;
+    background-color: rgb(216, 59, 59);
+    color: white;
+    cursor: pointer;
+}
+
+.rimuoviZona:hover {
+    color: black;
+}

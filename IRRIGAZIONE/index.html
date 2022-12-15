@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comando dell'orto</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="messaggi"><!-- div per dividere pagina in pezzi diversi -->
+        <p id="messaggio"></p>
+    </div>
+
+    <p>Area di Attivazione</p>
+
+
+
+    <div id="pulsanti">
+        <div class="pulsante-zona pulsante-off" id="zona1"> <!-- uso div perchè sono più gestibili dei button -->
+            Zona 1
+        </div>
+        <div class="pulsante-zona pulsante-off" id="zona2">
+            Zona 2
+        </div>
+        <div class="pulsante-zona pulsante-off" id="zona3">
+            Zona 3
+        </div>
+        <div class="pulsante-zona pulsante-off" id="zona4">
+            Zona 4
+        </div>
+        <div class="pulsante-zona pulsante-off" id="zona5">
+            Zona 5
+        </div>
+        <div class="pulsante-zona pulsante-off" id="zona6">
+            Zona 6
+        </div>
+    </div>
+
+    <button type="button" onclick="aggiungiZona()" class="aggiungiZona" >Add</button>
+    <button type="button" onclick="rimuoviZona()" class="rimuoviZona" >Remove</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>

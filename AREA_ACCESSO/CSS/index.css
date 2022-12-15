@@ -1,0 +1,18 @@
+/*
+elemento{
+    proprietà da personalizzare
+}
+*/
+
+body{
+    background-color: coral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-align: center;
+}
+
+input{
+    border: 1px solid blue;
+    text-align: center;
+
+}
